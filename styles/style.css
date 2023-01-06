@@ -1,0 +1,39 @@
+/* google fonts family */
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* header section styles */
+header {
+    background-image: url(../images/banner/banner3.png);
+    height: 100vh;
+}
+
+.banner-text {
+    text-align: right;
+    padding: 216px 230px 0 876px;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 24px 0 32px 0;
+}
+
+.white-btn {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
