@@ -42,7 +42,7 @@ section {
     margin: 130px 206px;
 }
 
-/* My failures section styles */
+/* My failures and Tips to succeed section styles */
 .section-container {
     display: flex;
     justify-content: center;
@@ -52,11 +52,12 @@ section {
 
 .section-img {
     width: 569px;
-    height: 723px;
+    /* height: 723px; */
 }
 
 .section-details {
-    margin-right: 116px;
+    /* margin-right: 116px; */
+    width: 416px;
 }
 
 .section-title {
