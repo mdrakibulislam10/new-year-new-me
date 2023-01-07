@@ -38,13 +38,15 @@ header {
     border: 0;
 }
 
+/* section common styles */
 section {
     margin: 130px 206px;
 }
 
-/* My failures and Tips to succeed section styles */
+/* my failures and tips to succeed section styles */
 .section-container {
     display: flex;
+    /* justify-content: space-around; */
     justify-content: center;
     align-items: center;
     gap: 87px;
@@ -86,4 +88,37 @@ section {
     height: 24px;
     color: #16D887;
     /* margin-right: 10px; */
+}
+
+/* my plans section styles */
+.plan-container {
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.plan {
+    width: 286px;
+}
+
+.plan-img {
+    width: 93px;
+}
+
+.plan-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 24px 0 16px 0;
+}
+
+.plan-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
 }
