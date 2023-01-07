@@ -10,7 +10,7 @@ header {
     height: 100vh;
 }
 
-.banner-text {
+.banner-container {
     text-align: right;
     padding: 216px 230px 0 876px;
 }
@@ -36,4 +36,53 @@ header {
     background: #FFFFFF;
     border-radius: 5px;
     border: 0;
+}
+
+section {
+    margin: 130px 206px;
+}
+
+/* My failures section styles */
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+}
+
+.section-img {
+    width: 569px;
+    height: 723px;
+}
+
+.section-details {
+    margin-right: 116px;
+}
+
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-description {
+    margin: 24px 0 16px 0;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.check-text {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.fa-check {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    color: #16D887;
+    /* margin-right: 10px; */
 }
